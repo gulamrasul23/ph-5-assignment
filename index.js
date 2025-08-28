@@ -24,7 +24,7 @@ document.getElementById('card-container')
                 alert("❌ You don't have enough coins, you need at least 20 coins to make a call.");
                 return;
             }else {
-                alert("📞 Calling" + " " + title + " " + number + " " + "......");
+                alert("📞 Calling" + " " + title + " " + number + "......");
                 const callHistory = {
                     name: title,
                     callNumber: number,
